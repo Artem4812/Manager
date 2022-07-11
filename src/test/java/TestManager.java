@@ -34,10 +34,18 @@ public class TestManager {
     }
 
     @Test
-    public void ShouldSearch() {
+    public void ShouldSearchBook() {
         Product[] expected = {book1};
         Product[] actual = manager.searchBy("Первая");
         ;
         Assertions.assertArrayEquals(expected, actual);
     }
+    @Test
+    public void ShouldSearchSmartphone() {
+        Product[] expected = {smartphone2};
+        Product[] actual = manager.searchBy("Galaxy S48");
+        ;
+        Assertions.assertArrayEquals(expected, actual);
+    }
+
 }
