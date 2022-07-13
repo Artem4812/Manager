@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="976a7f54-ece9-4c2c-a7aa-f7212277da64" name="Changes" comment="">
+    <list default="true" id="976a7f54-ece9-4c2c-a7aa-f7212277da64" name="Changes" comment="Update Test Manager">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,16 +48,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestManager.ShouldSearchSmartphone">
-    <configuration name="ProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Manager" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestManager.ShouldSearchSmartphone1">
     <configuration name="RepositoryTest.shouldGetManufacturer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Manager" />
       <option name="PACKAGE_NAME" value="" />
@@ -65,11 +59,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepositoryTest.shouldSetNameSmartphone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestManager.ShouldNotFiendProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Manager" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RepositoryTest" />
-      <option name="METHOD_NAME" value="shouldSetNameSmartphone" />
+      <option name="MAIN_CLASS_NAME" value="TestManager" />
+      <option name="METHOD_NAME" value="ShouldNotFiendProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,13 +89,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestManager.ShouldSearchSmartphone1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Manager" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestManager" />
+      <option name="METHOD_NAME" value="ShouldSearchSmartphone1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestManager.ShouldSearchSmartphone1" />
+        <item itemvalue="JUnit.TestManager.ShouldNotFiendProduct" />
         <item itemvalue="JUnit.TestManager.ShouldSearchSmartphone" />
         <item itemvalue="JUnit.TestManager.ShouldSearch" />
         <item itemvalue="JUnit.RepositoryTest.shouldGetManufacturer" />
-        <item itemvalue="JUnit.RepositoryTest.shouldSetNameSmartphone" />
-        <item itemvalue="JUnit.ProductTest" />
       </list>
     </recent_temporary>
   </component>
@@ -114,6 +118,14 @@
       <option name="presentableId" value="Default" />
       <updated>1657081812751</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update Test Manager">
+      <created>1657546267713</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657546267713</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +138,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update Test Manager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Test Manager" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

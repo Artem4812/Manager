@@ -48,4 +48,20 @@ public class TestManager {
         Assertions.assertArrayEquals(expected, actual);
     }
 
+    @Test
+    public void ShouldNotFiendProduct() {
+        Product[] expected = {};
+        Product[] actual = manager.searchBy("Galaxy S49");
+        ;
+        Assertions.assertArrayEquals(expected, actual);
+    }
+
+    @Test
+    public void ShouldSearchSmartphone1() {
+        Product[] expected = {book1, book2};
+        Product[] actual = manager.searchBy("а");
+        ;
+        Assertions.assertArrayEquals(expected, actual);
+    }
+
 }
