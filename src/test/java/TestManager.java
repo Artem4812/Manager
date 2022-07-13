@@ -57,7 +57,7 @@ public class TestManager {
     }
 
     @Test
-    public void ShouldSearchSmartphone1() {
+    public void ShouldSearchSeveralProducts() {
         Product[] expected = {book1, book2};
         Product[] actual = manager.searchBy("а");
         ;
