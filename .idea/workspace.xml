@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="976a7f54-ece9-4c2c-a7aa-f7212277da64" name="Changes" comment="Update Test Manager 2">
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NotFoundExceptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +49,22 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestManager.ShouldSearchSmartphone1">
-    <configuration name="RepositoryTest.shouldGetManufacturer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RepositoryTest.shouldGetExceptionRemoveById">
+    <configuration name="RepositoryTest.shouldGetExceptionRemoveById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Manager" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RepositoryTest" />
-      <option name="METHOD_NAME" value="shouldGetManufacturer" />
+      <option name="METHOD_NAME" value="shouldGetExceptionRemoveById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepositoryTest.shouldRemoveById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Manager" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RepositoryTest" />
+      <option name="METHOD_NAME" value="shouldRemoveById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -61,16 +75,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestManager" />
       <option name="METHOD_NAME" value="ShouldNotFiendProduct" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestManager.ShouldSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Manager" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestManager" />
-      <option name="METHOD_NAME" value="ShouldSearch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RepositoryTest.shouldGetExceptionRemoveById" />
+        <item itemvalue="JUnit.RepositoryTest.shouldRemoveById" />
         <item itemvalue="JUnit.TestManager.ShouldSearchSmartphone1" />
         <item itemvalue="JUnit.TestManager.ShouldNotFiendProduct" />
         <item itemvalue="JUnit.TestManager.ShouldSearchSmartphone" />
-        <item itemvalue="JUnit.TestManager.ShouldSearch" />
-        <item itemvalue="JUnit.RepositoryTest.shouldGetManufacturer" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657698756168</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update Test Manager 2">
+      <created>1657698809412</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657698809412</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

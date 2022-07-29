@@ -40,6 +40,13 @@ public class RepositoryTest {
     }
 
     @Test
+    public void shouldGetNotFoundException() {
+        Assertions.assertThrows(NotFoundException.class, () -> {
+            repository.removeById(12);
+        });
+    }
+
+    @Test
     public void shouldFindAll() {
         Product[] expected = {book1, book2, book3, smartphone1, smartphone2, smartphone3};
         Product[] actual = repository.findAll();
